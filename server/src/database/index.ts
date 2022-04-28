@@ -7,8 +7,8 @@ const url = `mongodb+srv://${process.env.DB_USER}:${
 
 export const connectDatabase = async (): Promise<Database> => {
   const client = await MongoClient.connect(url, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true
   });
   const db = client.db("main");
 
