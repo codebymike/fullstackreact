@@ -1,14 +1,10 @@
-# Javascript Ecommerce Platform
+# React/Typscript/GraphQL Ecommerce Platform
 
 Fullstack React (TypeScript and GraphQL)
 
 ## Architechure
 
-/server - Node.js/TS GraphQL API
-
-## Features
-
-TODO
+server/ - GraphQL API (Apollo), Node.js, TypeScript
 
 ## TODO
 
