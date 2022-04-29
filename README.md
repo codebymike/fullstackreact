@@ -4,7 +4,7 @@ Fullstack React (TypeScript and GraphQL)
 
 ## Architechure
 
-server/ - GraphQL API (Apollo), Node.js, TypeScript
+server/ - GraphQL API (Apollo), Node.js, TypeScript. data hosted on Mongo.Atlas
 
 ## TODO
 
