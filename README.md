@@ -4,7 +4,7 @@ w/ Typescript & GraphQL
 
 ## Architechure
 
-Server/ Node.js, Apollo-Server, GraphQL API
+Server/ Node.js, Apollo-Server, GraphQL API  
 Client/ React.js, Apollo-Client 
 
 ## Getting started
