@@ -12,6 +12,7 @@
     "@types/node": "^16.11.32",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
+    "antd": "^4.20.3",
     "graphql": "^16.4.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -26,7 +27,6 @@
     "eject": "react-scripts eject",
     "codegen:schema": "apollo schema:download --endpoint=http://localhost:9000/api schema.json",
     "codegen:generate": ""
-
   },
   "eslintConfig": {
     "extends": [
