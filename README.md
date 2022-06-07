@@ -1,22 +1,22 @@
-# Fullstack React "AirBnB Clone" (TinyHouse)
+# Fullstack Javascript 'AirBnB' Clone (TinyHouse)
 
-w/ Typescript & GraphQL
+w/ React, Typescript, Node.js & GraphQL
 
 ## Architechure
 
-Server/ Node.js, Apollo-Server, GraphQL API  
-Client/ React.js, Apollo-Client 
+Server/ - Node.js, Express, Apollo-Server, GraphQL API  
+Client/ - React.js, Apollo-Client 
 
 ## Getting started
 
 Install all dependencies with yarn or npm. This is the same for both client and server project.
 ```cli
-yarn install
+npm install
 ```
 
 ### Server
 
-A [Apollo Server](https://www.apollographql.com/docs/apollo-server) with [MongoDB](https://www.mongodb.com) backend 
+An [Apollo Server](https://www.apollographql.com/docs/apollo-server) with [MongoDB](https://www.mongodb.com) backend 
 for storing rental houses. 
 
 #### Configure your environment variables
@@ -38,14 +38,14 @@ NODE_ENV=<development for local dev>
 Seed with some mock data
 
 ```cli
-yarn seed
+npm run seed
 ```
 
 #### Run & build
 
 Start the server with yarn.
 ```cli
-yarn start
+npm run start
 ```
 
 In development mode you can access the GraphQL Playground on URL [http://localhost:9000/api/](http://localhost:9000/api/)
@@ -53,7 +53,7 @@ In development mode you can access the GraphQL Playground on URL [http://localho
 
 Create a production build with yarn.
 ```cli
-yarn build
+npm run build
 ```
 
 ### Client
@@ -64,17 +64,17 @@ All client code is located in the  `/client` folder.
 
 Start the client with yarn.
 ```cli
-yarn start
+npm run start
 ```
 
 The client uses [Apollo CLI](https://www.apollographql.com/docs/devtools/cli/) to generate types from the server API.
 
 Read the server API schema and stores it locally to the client.
 ```cli
-yarn codegen:schema
+npm run codegen:schema
 ```
 
 Reads the local schema file and generate types where GraphQL queries are defined.
 ```cli
-yarn codegen:generate
+npm run codegen:generate
 ```
